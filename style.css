@@ -1,0 +1,117 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+}
+.nav_button{
+     display: flex;
+     padding: 1rem;
+     height: 2rem;
+     margin-left: 50%;
+     gap:10px;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding-left:100px;
+}
+nav>h1>a{
+    color: white;
+}
+.request{
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 200px;
+    font-size: larger;
+    border: solid;
+}
+.signin{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    font-size: larger;
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: rgb(194, 194, 194);
+    padding-bottom: 100px;
+    width: 100%;
+}
+.help>h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.help>input{
+    height: 40px;
+    width:700px;
+    font-size: 20px;
+}
+.signin:hover{
+    color:black;
+    background-color: white;
+}
+nav>img{
+    padding-top: 10px;
+    height: 40px;
+    width: 30px;
+}
+.grid_container{
+    display: grid;;
+     grid-template-columns: 1fr 1fr;
+}
+.grid_item{
+    background-color: rgb(255, 255, 255);
+    height: 15rem;
+    width:30rem;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+p{
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.grid_footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    padding-left: 40px;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap:50px;
+}
+.grid_footer>a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: self-start;
+    font-size: 18px;
+    padding:5px ;
+    text-decoration: none;
+}
